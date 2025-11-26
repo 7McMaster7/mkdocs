@@ -1,8 +1,7 @@
 {
   "name": "mkdocs-documentation",
   "version": "1.0.0",
-  "description": "Material for MkDocs deployed on Vercel",
   "scripts": {
-    "build": "pip install -r requirements.txt && mkdocs build"
+    "build": "pip install -r requirements.txt && python -m mkdocs build"
   }
 }
